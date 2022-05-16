@@ -1,0 +1,109 @@
+
+body{
+  margin: 0;
+  background-color: #F9EBC8;
+}
+
+
+.titulo{
+  color: rgb(10, 10, 10);
+  text-align: center;
+}
+.sub{
+  
+  color: rgb(10, 10, 10);
+}
+
+
+.cuadrodedatos{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 23%;
+  display: block;
+}
+.intro{
+  font-size: large;
+
+  
+}
+.cuadrodedatos1{
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 23%;
+  display: block;
+  
+}
+label{
+  width: 2rem;
+  height: 2rem;
+}
+
+.cuadrodedatos2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 23%;
+  display: block;
+}
+
+.cuadrodedatos3{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 23%;
+  display: block;
+}
+
+.cuadrodedatos4{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 23%;
+  display: block;
+}
+.cuadrodedatos5{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 23%;
+  display: block;
+}
+.cuadrodedatos9{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 23%;
+  display: block;
+}
+textarea{
+  width: 100%;
+}
+h2{
+  text-align: center;
+}
+.elemento {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#momo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/*
+
+.cdc {
+  background-color: #205375;
+}
+.let{
+  color: rgb(200, 200, 200);
+  font-size: large;
+
+}
