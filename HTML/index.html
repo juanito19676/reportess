@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Reporte de levantamiento de necesidades para acondicionar un cine</title>
+</head>
+<body>
+  
+    <h1 class="titulo">Reporte de levantamiento de necesidades para acondicionar un cine</h1> 
+    <h3 class = "sub">Por medio de la presente pagina le informamos que para solicitar su reporte le pedimos de la mejor manera que nos proporciona sus datos con la finalidad de que no haya probelmas en cuanto a su solicitud y podamos proporcionarlos los materiales de la mejor manera posible</h3>
+  
+    
+    <!---<div class="img1"><img src="img/1.jpg" /></div>--->
+    <form>
+   <div class="cuadrodedatos">
+    <div id="formulario" class="form">
+      <fieldset>
+        <legend>Datos generales</legend>
+      <label id = "name" class="let">Nombre:</label> <input type="text" required id ="nombre" class="cdc" > <br>
+      <label id = "age" class="let">Edad:</label> <input type="number" id ="edad" class="cdc" min="1" max="100" required> <br>
+      <label id = "dob" class="let">Fecha de nacimiento:</label> <input type="date" id ="dato" class="cdc" required> <br>
+      <label id = "telefono" class="let">Telefono:</label> <input type="tel" id ="inover" class="cdc" required> <br>
+    <!-- <label id = "inf" class="let">Informacion:</label> <textarea id="inover" name="name" cols="80" rows="8" class="cdc"> </textarea> -->
+    </fieldset>
+  </div>
+</div>
+<br>
+<div class="cuadrodedatos1">
+  <div id="formulariodireccion" class="form">
+    <fieldset>
+      <legend>Direccion</legend>
+    <label id = "Pais">Pais:</label> <input type="text" id ="bPais" value="" width="30px"required> <br>
+    <label id = "Municipio">Municipio:</label> <input type="text" id ="bMunicipio" value="" required> <br>
+    <label id = "Ciudad">Ciudad:</label> <input type="text" id ="bCiudad" value="" required> <br>
+    <label id = "Domicilio">Domicilio:</label> <input type="text" id ="bDomicilio" value="" required> <br>
+   <!-- <label id = "inf">Informacion:</label> <textarea id="inover" name="name" cols="80" rows="8"> </textarea> -->
+    </fieldset>
+    
+</div>
+</div>
+<br>
+
+<div class="cuadrodedatos2">
+  <div id="formulariodias" class="form">
+    <fieldset>
+      <legend>Solicitud</legend>
+    <label id = "Año">Año:</label> <input type="number" id ="bAño" value="" min="2000" max="2022" width="30px" required> <br>
+    <label id = "Mes">Mes:</label> <input type="number" id ="bMes" value="" min="1" max="12" required> <br>
+    <label id = "Dia">Dia:</label> <input type="number" id ="bDia" value="" min="1" max="31" required> <br>
+    <label id = "Dinero">Dinero a solicitar:</label> <input type="number" id ="bDinero" value="" required> 
+    
+   <!-- <label id = "inf">Informacion:</label> <textarea id="inover" name="name" cols="80" rows="8"> </textarea> -->
+    </fieldset>
+</div>
+</div>
+  <br>
+  <h2>Datos a solicitar para acondicionar el cine</h2>
+<br>
+  <div class="cuadrodedatosci">
+    <div id="formulariotamañodelcine" class="form">
+      <fieldset>
+        <legend>Dimensiones de la sala</legend>
+      <label id = "ancho">Ancho:</label> <input type="number" id ="bancho" value="" required> <br>
+      <label id = "largo">Largo:</label> <input type="number" id ="blargo" value=""  required> <br>
+      <label id = "altura">Altura:</label> <input type="number" id ="baltura" value=""  required> <br> 
+      
+     <!-- <label id = "inf">Informacion:</label> <textarea id="inover" name="name" cols="80" rows="8"> </textarea> -->
+      </fieldset>
+  </div>
+  </div>
+  <br>
+  <div class="cuadrodedatos3">
+    <div id="formulariopantalla" class="form">
+      <fieldset>
+        <legend>Datos de pantalla</legend>
+      <label id = "dp">Dimensiones:</label> <input type="number" id ="bdp" value="" required> <br>
+      <label id = "dsp">Diseño:</label> <input type="number" id ="bdsp" value="" required> <br>
+      <label id = "al">Altura:</label> <input type="number" id ="bal" value="" required> <br>
+      <label id = "an">Ancho:</label> <input type="number" id ="ban" value="" required> <br>
+      <label id = "anvh">Angulo de vision horizontal en grados:</label> <input type="number" id ="banvh" value="" required> <br>
+      <label id = "anvv">Angulo de vision horizontal en grados:</label> <input type="number" id ="banvv" value="" required> <br>
+      <label id = "distorsion">Angulo de distorsion:</label> <input type="number" id ="bdistorsion" value="" min="0" max="45" required> <br>
+      <label id = "tp">Tipo de proyector:</label> <input type="text" id ="btp" value="" required> 
+      <label id = "tm">Marca:</label> <input type="text" id ="btm" value="" required> 
+      <label id = "tmo">Modelo:</label> <input type="text" id ="btmo" value="" required> 
+      <label id = "tn">No.Serie:</label> <input type="text" id ="btn" value="" required> <br>
+      <label id = "dp">Distancia del proyector:</label> <input type="number" id ="bdp" value="" required> <br>
+      <label id = "tsis">Tipo de sistema:</label> <input type="text" id ="btsis" value="" required> <br>
+     <!-- <label id = "inf">Informacion:</label> <textarea id="inover" name="name" cols="80" rows="8"> </textarea> -->
+      </fieldset>
+  </div>
+  </div>
+<br>
+  <div class="cuadrodedatos4">
+    <div id="formulariosala" class="form">
+      <fieldset>
+        <legend>Datos de sala</legend>
+      <label id = "mads">Material absorbente de sonido:</label> <input type="text" id ="bmads" value="" required> <br>
+      <label id = "fodla">Forma de la sala:</label> <input type="text" id ="bfodla" value="" min="1" max="12" required> <br>
+      <label id = "nudees">Numero de espectadores:</label> <input type="number" id ="bnudees" value=""> <br>
+      <label id = "vece">Volumen entre cada espectador:</label> <input type="number" id ="bvece" value="" required> <br>
+      <label id = "advdlp">Angulo de vision de la pantalla:</label> <input type="number" id ="badvdlp" value="" required> <br>
+      <label id = "eef">Espacio entre filas:</label> <input type="number" id ="beef" value="" required> <br>
+      <label id = "andeloas">Anchura de los asientos:</label> <input type="number" id ="bandeloas" value="" required> <br>
+      <label id = "alfombra">Alfombra:</label> <input type="text" id ="balfombra" value="" required> <br>
+      <label id = "color">Color:</label> <input type="color" id ="bcolor" required> <br>
+      <label id = "tipo">Tipo:</label> <input type="text" id ="btipo" value="" required> 
+      
+     <!-- <label id = "inf">Informacion:</label> <textarea id="inover" name="name" cols="80" rows="8"> </textarea> -->
+      </fieldset>
+  </div>
+  </div>
+
+  <br>
+
+  <div class="cuadrodedatos5">
+    <div id="formularioiluminacion" class="form">
+      <fieldset>
+        <legend>Iluminación</legend>
+      
+      <label id = "distancia">Distancia:</label> <input type="number" id ="bdistancia" value=""> <br>
+      <label id = "tipodeluz">Tipo de luz:</label> <input type="text" id ="btipodeluz" value="" required> <br>
+      <label id = "foco">Tipo de foco:</label> <input type="text" id ="bfoco" value="" required> <br>
+      <label id = "brillo">Brillo:</label> <input type="number" id ="bbrillo" value="" required> <br>
+      <label id = "lados">Lados de luminancia:</label> <input type="text" id ="blados" value="" required> <br>
+      <label id = "esquina">Esquinas de luminancia:</label> <input type="text" id ="besquina" value="" required> 
+
+     <!-- <label id = "inf">Informacion:</label> <textarea id="inover" name="name" cols="80" rows="8"> </textarea> -->
+      </fieldset>
+  </div>
+  </div>
+  <br>
+  <div class="cuadrodedatosproyector">
+    <div id="formularioproyector" class="form">
+      <fieldset>
+        <legend>Colocación del proyector</legend>
+      <label id = "suelo" class="let">Metros sobre el suelo:</label> <input type="number" required id ="bsuelo" class="cdc" > <br>
+      <label id = "anchodeapertura" class="let">Ancho de apertura:</label> <input type="number" id ="banchodeapertura" class="cdc" required> <br>
+      <label id = "posicionamiento" class="let">Posicionamiento:</label> <input type="text" id ="bposicionamiento" class="cdc" required> <br>
+    <!-- <label id = "inf" class="let">Informacion:</label> <textarea id="inover" name="name" cols="80" rows="8" class="cdc"> </textarea> -->
+    </fieldset>
+  </div>
+</div>
+<br>
+<div class="cuadrodedatosacondicionamiento">
+  <div id="formularioacondecimiento" class="form">
+    <fieldset>
+      <legend>Acondicionamiento de la sala</legend>
+    <label id = "reberveracion" class="let">Tiempo de reberveracion:</label> <input type="number" required id ="breberveracion" class="cdc" > <br>
+    <label id = "bandasonora" class="let">Banda sonora:</label> <input type="text" id ="bbandasonora" class="cdc" required> <br>
+    <label id = "tipodependiente" class="let">Tipo de pendiente:</label> <input type="text" id ="btipodependiente" class="cdc" required> <br>
+  <!-- <label id = "inf" class="let">Informacion:</label> <textarea id="inover" name="name" cols="80" rows="8" class="cdc"> </textarea> -->
+  </fieldset>
+</div>
+</div>
+<br>
+  <div class="cuadrodedatos9">
+    <div id="formularioasunto" class="form">
+      
+      
+     <label id = "inf">Asunto:</label> <br>
+     <textarea id="info" name="name" cols="80" rows="8" required> </textarea> 
+     
+  </div>
+  </div>
+</form>
+    <div class="elemento">
+      <a href="javascript:pdfexport();"> 
+      <input id="momo" type="submit" value="Enviar " >
+    </a>
+  </div>
+
+
+    
+<img src="/cines.png" alt="" class="cines">
+<img src="/movie.gif" alt="" class="movie">
+
+       
+       
+
+
+      <!---</form>-->
+    </div>
+   
+
+  <script type="text/javascript" src="scriptd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.js"></script>
+    <!--
+    <h1>Export pdf</h1>
+    <div class="formulario">
+        <label id = "name">Name:</label> <input type="text" id ="nombre" value=""> <br>
+        <label id = "age">Age:</label> <input type="number" id ="edad" value=""> <br>
+        <label id = "dob">DOB:</label> <input type="date" id ="dato" value=""> <br>
+        <label id = "inf">Info:</label> <textarea id="inover" name="name" cols="80" rows="8"> </textarea>
+    </div>
+    <br>
+    <div class="elemento">
+        <a href="javascript:pdfexport();"> 
+        <input type="submit" value="Enviar " >
+      </a>
+    </div>
+    <script type="text/javascript" src="scriptd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.js"></script>
+-->
+
+</body>
+</html>
